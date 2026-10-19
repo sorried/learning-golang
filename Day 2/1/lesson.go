@@ -1,3 +1,5 @@
+// Ввод данных (Scan) и красивый вывод (Printf)
+
 package main
 
 import "fmt"
@@ -10,3 +12,4 @@ func main() {
 
 	fmt.Println("Привет,", name, "!") // ВЫводим имя
 }
+
