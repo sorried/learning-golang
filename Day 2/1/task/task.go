@@ -6,12 +6,12 @@ func main() {
 	var name string // пустое, записать
 
 	fmt.Printf("Как тебя зовут? ")
-	fmt.Scan(name)
+	fmt.Scan(&name)
 
 	var age int // сколько лет
 
 	fmt.Printf("Сколько тебе лет? ")
-	fmt.Scan(age)
+	fmt.Scan(&age)
 
-	fmt.Printf("Привет %s!", name, "Тебе %d лет", age)
+	fmt.Printf("Привет, %s! Тебе %d лет.\n", name, age)
 }
