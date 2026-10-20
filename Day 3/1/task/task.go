@@ -15,5 +15,12 @@ func main() {
 		break
 	}
 	time.Sleep(300 * time.Millisecond)
+	/*
+	time.Second — 1 секунда
+
+	time.Millisecond — 1 миллисекунда
+
+	time.Minute — 1 минута
+	*/
 	}
 }
