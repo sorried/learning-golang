@@ -1,3 +1,4 @@
+// Цикл for (повторяем действия)
 package main
 
 import "fmt"
