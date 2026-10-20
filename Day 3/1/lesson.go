@@ -10,4 +10,9 @@ func main() {
 	for i := 1; i <= 5; i++ {
 		fmt.Printf("круг номер %d\n", i)
 	}
+
+	for i := 1; i <= 10; i++ {
+		fmt.Printf("egg %d\n", i)
+		break
+	}
 }
